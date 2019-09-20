@@ -7,4 +7,4 @@ sqlite3
 csv
 
 ## Usage
-python dbextractor.py <source_backup_filename.fydb> <outputfile.csv>
+python dbextract.py <source_backup_filename.fydb> <outputfile.csv>
