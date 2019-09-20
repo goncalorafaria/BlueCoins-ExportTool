@@ -16,7 +16,7 @@ with connect(dbname) as conn :
 
     cur = conn.cursor()
 
-    rset = cur.execute( 
+    cur.execute( 
         'SELECT ' 
 		    ' (CAST(T.amount  AS float) / 1000000.0) as Cost, '
 		    'I.itemName as "Expense Name",'
