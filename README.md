@@ -1,5 +1,5 @@
 # BlueCoins-ExportTool
-Python script that converts the backup data files to csv.
+Python script that converts the backup data files from the application BlueCoins to csv.
 
 ## Requirements
 sqlite3
